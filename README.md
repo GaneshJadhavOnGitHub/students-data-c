@@ -1,5 +1,5 @@
 # students-data-c
-A CLI program written in C for managing student data (Roll No, Name, Marks). Users can perform CRUD operations and print records. The program utilizes linked lists for in-memory operations and file for persistent data storage.
+A CLI (Command Line Interface) program written in C for managing student data (Roll No, Name, Marks). Users can perform CRUD operations and print records. The program utilizes linked lists for in-memory operations and file for persistent data storage.
 
 For system requirements, please refer System_Requirements.txt file.
 
