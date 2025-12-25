@@ -1,0 +1,93 @@
+Hardware & Software Requirements -
+------------------------------------
+
+ % neofetch
+            .-/+oossssoo+/-.               ganesh@JammyJellyfish 
+        `:+ssssssssssssssssss+:`           --------------------- 
+      -+ssssssssssssssssssyyssss+-         OS: Ubuntu 22.04.5 LTS x86_64 
+    .ossssssssssssssssssdMMMNysssso.       Host: 2349PS2 ThinkPad T430 
+   /ssssssssssshdmmNNmmyNMMMMhssssss/      Kernel: 6.8.0-90-generic 
+  +ssssssssshmydMMMMMMMNddddyssssssss+     Uptime: 3 mins 
+ /sssssssshNMMMyhhyyyyhmNMMMNhssssssss/    Packages: 2803 (dpkg), 39 (flatpak), 18 (snap) 
+.ssssssssdMMMNhsssssssssshNMMMdssssssss.   Shell: zsh 5.8.1 
++sssshhhyNMMNyssssssssssssyNMMMysssssss+   Resolution: 1600x900 
+ossyNMMMNyMMhsssssssssssssshmmmhssssssso   DE: GNOME 42.9 
+ossyNMMMNyMMhsssssssssssssshmmmhssssssso   WM: Mutter 
++sssshhhyNMMNyssssssssssssyNMMMysssssss+   WM Theme: Adwaita 
+.ssssssssdMMMNhsssssssssshNMMMdssssssss.   Theme: Yaru-prussiangreen-dark [GTK2/3] 
+ /sssssssshNMMMyhhyyyyhdNMMMNhssssssss/    Icons: Yaru-prussiangreen [GTK2/3] 
+  +sssssssssdmydMMMMMMMMddddyssssssss+     Terminal: gnome-terminal 
+   /ssssssssssshdmNNNNmyNMMMMhssssss/      CPU: Intel i5-3320M (4) @ 3.300GHz 
+    .ossssssssssssssssssdMMMNysssso.       GPU: Intel 3rd Gen Core processor Graphics Controller 
+      -+sssssssssssssssssyyyssss+-         Memory: 3268MiB / 15675MiB 
+        `:+ssssssssssssssssss+:`
+            .-/+oossssoo+/-.                                       
+                                                                   
+
+-------------------------------------------------------------------------------------------------------
+
+
+C Compiler
+------------
+
+ % gcc --version
+gcc (Ubuntu 11.4.0-1ubuntu1~22.04.2) 11.4.0
+Copyright (C) 2021 Free Software Foundation, Inc.
+This is free software; see the source for copying conditions.  There is NO
+warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+
+---------------------------------------------------------------------------------
+
+Editor
+-------
+
+Sublime Text with HexViewer Package, if you want to view StudentsRecords.
+
+Check Sublime Text Version 
+
+ % subl -v
+Sublime Text Build 4200
+
+To install and use HexViewer follow following steps in sublime text.
+
+1. Install Package Control (if you haven't yet):
+
+    Press Ctrl + Shift + P.
+
+    Type Install Package Control and press Enter.
+
+2. Install HexViewer:
+
+    Press Ctrl + Shift + P again.
+
+    Type Package Control: Install Package and press Enter.
+
+    Search for HexViewer and click it to install.
+
+3. Use HexViewer:
+
+    Open your file.
+
+    Press Ctrl + Shift + P.
+
+    Type HexViewer: Toggle Hex View.
+
+    This will show you the hex codes and the readable text side-by-side.
+
+---------------------------------------------------------------------------------
+
+cups-pdf
+--------
+
+cups-pdf is required to print records.(virtually without using physical printer)
+
+Check cups-pdf version 
+
+ % dpkg -s printer-driver-cups-pdf | grep Version
+Version: 3.0.1-14
+
+Note - To install cups-pdf execute below command
+
+% sudo apt install cups-pdf
+
+-----------------------------------------------------------------------------------
